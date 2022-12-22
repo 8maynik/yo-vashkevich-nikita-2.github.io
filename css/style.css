@@ -3436,7 +3436,7 @@ color: #C29974;
 }
 @media (max-width: 600px) {
   .section-work-with .container-work-with .list-img {
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
     gap: 36px;
   }
@@ -3451,6 +3451,12 @@ color: #C29974;
 @media (max-width: 376px) {
   .section-work-with .container-work-with .list-img {
     max-width: 375px;
+  }
+}
+@media (max-width: 300px) {
+  .section-work-with .container-work-with .list-img {
+    max-width: 200px;
+    justify-content: center;
   }
 }
 .section-work-with .container-work-with .list-img__item {
