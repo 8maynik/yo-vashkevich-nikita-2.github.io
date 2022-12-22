@@ -1255,7 +1255,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer .container-footer .footer-list__item .social__img-facebook::before {
   position: absolute;
   content: "";
-  background-image: url(../../img/icon/Facebook.svg);
+  background-image: url(./../img/icon/Facebook.svg);
   background-size: cover;
   width: 30px;
   height: 30px;
@@ -1264,7 +1264,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer .container-footer .footer-list__item .social__img-twitter::before {
   position: absolute;
   content: "";
-  background-image: url(../../img/icon/Twitter.svg);
+  background-image: url(./../img/icon/Twitter.svg);
   background-size: cover;
   width: 30px;
   height: 30px;
@@ -1273,7 +1273,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer .container-footer .footer-list__item .social__img-pinterest::before {
   position: absolute;
   content: "";
-  background-image: url(../../img/icon/Pinterest.svg);
+  background-image: url(./../img/icon/Pinterest.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 30px;
@@ -1283,7 +1283,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer .container-footer .footer-list__item .social__img-instagram::before {
   position: absolute;
   content: "";
-  background-image: url(../../img/icon/Instagram.svg);
+  background-image: url(./../img/icon/Instagram.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 30px;
