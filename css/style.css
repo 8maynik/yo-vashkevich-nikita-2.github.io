@@ -2191,7 +2191,7 @@ color: #C29974;
 
 .popup-close {
   background: rgba(125, 151, 218, 0);
-  background-image: url(../../img/icon/CLOSE.svg);
+  background-image: url(./../img/icon/CLOSE.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 15px;
