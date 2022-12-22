@@ -5489,6 +5489,8 @@ color: #C29974;
 @media (max-width: 550px) {
   .section-grid .grid__item2-txt2 {
     text-align: start;
+    font-size: 30px;
+    line-height: 40px;
   }
 }
 .section-grid .grid__item2-link {
