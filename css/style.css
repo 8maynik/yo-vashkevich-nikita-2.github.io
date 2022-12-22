@@ -2345,10 +2345,13 @@ color: #C29974;
   transform: scale(1.02);
 }
 .cards-list__img {
+  max-width: 380px;
+  max-height: 220px;
   margin-bottom: 20px;
   background: #c8c4c4;
   transition: 0.4s;
   width: 100%;
+  height: auto;
 }
 .cards-list__img:hover {
   transform: scale(1.03);
@@ -2571,6 +2574,8 @@ color: #C29974;
 .block__img {
   max-width: 380px;
   max-height: 385px;
+  width: auto;
+  height: auto;
 }
 .block__signature {
   font-family: "Open Sans", sans-serif;
