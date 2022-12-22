@@ -1359,7 +1359,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
   color: rgba(0, 0, 0, 0);
   margin-right: 7px;
-  background-image: url(../../img/icon/star.svg);
+  background-image: url(./../img/icon/star.svg);
   background-size: cover;
   width: 13px;
   height: 13px;
@@ -1373,13 +1373,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footer .container-footer .footer-bottom .footer-bottom-rating .rating-block .rating-mini .rating-area > input:checked ~ label {
   color: #FFFFFF;
-  background-image: url(../../img/icon/Star-checked.svg);
+  background-image: url(./../img/icon/Star-checked.svg);
   width: 13px;
   height: 13px;
 }
 .footer .container-footer .footer-bottom .footer-bottom-rating .rating-block .rating-mini .rating-area:not(:checked) > label:hover,
 .footer .container-footer .footer-bottom .footer-bottom-rating .rating-block .rating-mini .rating-area:not(:checked) > label:hover ~ label {
-  background-image: url(../../img/icon/star-hover.svg);
+  background-image: url(./../img/icon/star-hover.svg);
   background-repeat: no-repeat;
   width: 13px;
   height: 13px;
@@ -1390,7 +1390,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer .container-footer .footer-bottom .footer-bottom-rating .rating-block .rating-mini .rating-area > input:checked ~ label:hover,
 .footer .container-footer .footer-bottom .footer-bottom-rating .rating-block .rating-mini .rating-area > input:checked ~ label:hover ~ label,
 .footer .container-footer .footer-bottom .footer-bottom-rating .rating-block .rating-mini .rating-area > label:hover ~ input:checked ~ label {
-  background-image: url(../../img/icon/star-hover.svg);
+  background-image: url(./../img/icon/star-hover.svg);
   background-repeat: no-repeat;
   width: 13px;
   height: 13px;
@@ -2472,7 +2472,7 @@ color: #C29974;
 .switches .arrow-left {
   position: absolute;
   left: 0;
-  background-image: url(../../img/icon/arrow-products-left-opacity.svg);
+  background-image: url(./../img/icon/arrow-products-left-opacity.svg);
   background-color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2483,7 +2483,7 @@ color: #C29974;
 .switches .arrow-left:hover {
   position: absolute;
   left: 0;
-  background-image: url(../../img/icon/arrow-products-left-hoover.svg);
+  background-image: url(./../img/icon/arrow-products-left-hoover.svg);
   background-color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2494,7 +2494,7 @@ color: #C29974;
 .switches .arrow-left:active {
   position: absolute;
   left: 0;
-  background-image: url(../../img/icon/arrow-products-left-active.svg);
+  background-image: url(./../img/icon/arrow-products-left-active.svg);
   background-color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2504,7 +2504,7 @@ color: #C29974;
 .switches .arrow-right {
   position: absolute;
   right: 0;
-  background-image: url(../../img/icon/arrow-products-right-opacity.svg);
+  background-image: url(./../img/icon/arrow-products-right-opacity.svg);
   background-color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2515,7 +2515,7 @@ color: #C29974;
 .switches .arrow-right:hover {
   position: absolute;
   right: 0;
-  background-image: url(../../img/icon/arrow-products-right-hoover.svg);
+  background-image: url(./../img/icon/arrow-products-right-hoover.svg);
   background-color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2526,7 +2526,7 @@ color: #C29974;
 .switches .arrow-right:active {
   position: absolute;
   right: 0;
-  background-image: url(../../img/icon/arrow-products-right-active.svg);
+  background-image: url(./../img/icon/arrow-products-right-active.svg);
   background-color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3123,7 +3123,7 @@ color: #C29974;
   position: absolute;
   display: flex;
   left: 0;
-  background-image: url(../../img/icon/arrow-products-left.svg);
+  background-image: url(./../img/icon/arrow-products-left.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 19px;
@@ -3136,7 +3136,7 @@ color: #C29974;
   position: absolute;
   display: flex;
   left: 0;
-  background-image: url(../../img/icon/arrow-products-left-hoover.svg);
+  background-image: url(./../img/icon/arrow-products-left-hoover.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 17px;
@@ -3148,7 +3148,7 @@ color: #C29974;
   position: absolute;
   display: flex;
   left: 0;
-  background-image: url(../../img/icon/arrow-products-left-active.svg);
+  background-image: url(./../img/icon/arrow-products-left-active.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 17px;
@@ -3173,7 +3173,7 @@ color: #C29974;
   position: absolute;
   display: flex;
   left: 0;
-  background-image: url(../../img/icon/arrow-products-right.svg);
+  background-image: url(./../img/icon/arrow-products-right.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 19px;
@@ -3186,7 +3186,7 @@ color: #C29974;
   position: absolute;
   display: flex;
   left: 0;
-  background-image: url(../../img/icon/arrow-products-right-hoover.svg);
+  background-image: url(./../img/icon/arrow-products-right-hoover.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 17px;
@@ -3198,7 +3198,7 @@ color: #C29974;
   position: absolute;
   display: flex;
   left: 0;
-  background-image: url(../../img/icon/arrow-products-right-active.svg);
+  background-image: url(./../img/icon/arrow-products-right-active.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 17px;
