@@ -990,6 +990,10 @@ h1, h2, h3, h4, h5, h6 {
     height: calc(155px + 69.7 * ((100vw - 375px) / 768));
   }
 }
+.category__cards-img {
+  width: auto;
+  height: auto;
+}
 .category__cards-apparel {
   background-color: #DBE4DB;
 }
@@ -1051,6 +1055,7 @@ h1, h2, h3, h4, h5, h6 {
           text-decoration-line: underline;
   opacity: 0.8;
 }
+
 .cards-indent {
   margin-left: 200px;
 }
@@ -2999,17 +3004,10 @@ color: #C29974;
   }
 }
 .section-banner .container-banner .list-banner__item .banner-image__image {
+  max-height: 461px;
   max-width: 636px;
-}
-@media (min-width: 980px) {
-  .section-banner .container-banner .list-banner__item .banner-image__image {
-    max-width: 100%;
-  }
-}
-@media (max-width: 375px) {
-  .section-banner .container-banner .list-banner__item .banner-image__image {
-    max-width: 100%;
-  }
+  width: 100%;
+  height: 100%;
 }
 .section-banner .bottom-text {
   background-color: #C29974;
@@ -3239,7 +3237,7 @@ color: #C29974;
     margin: 0 calc(20px + 68 * ((100vw - 375px) / 768));
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .section-delivery .container-delivery {
     flex-direction: column;
   }
@@ -3458,6 +3456,10 @@ color: #C29974;
 .section-work-with .container-work-with .list-img__item {
   display: flex;
   transition: 0.4s;
+}
+.section-work-with .container-work-with .list-img__item img {
+  width: auto;
+  height: auto;
 }
 @media (max-width: 450px) {
   .section-work-with .container-work-with .list-img__item-mail {
