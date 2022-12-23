@@ -5345,6 +5345,148 @@ color: #C29974;
   max-height: 391px;
   width: 100%;
   height: 100%;
+  transition: 2s;
+}
+.container-svg .svg__color {
+  -webkit-animation-name: color;
+          animation-name: color;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+.container-svg .svg__color {
+  fill: pink;
+  -webkit-animation-name: color;
+          animation-name: color;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes color {
+  50% {
+    stroke: pink;
+  }
+}
+@keyframes color {
+  50% {
+    stroke: pink;
+  }
+}
+.container-svg .svg__fill {
+  -webkit-animation-name: fill;
+          animation-name: fill;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes fill {
+  50% {
+    fill: rgba(104, 108, 212, 0.9843137255);
+  }
+}
+@keyframes fill {
+  50% {
+    fill: rgba(104, 108, 212, 0.9843137255);
+  }
+}
+.container-svg .svg__bgr-light {
+  fill: #E6E9ED;
+  -webkit-animation-name: bgr-light;
+          animation-name: bgr-light;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes bgr-light {
+  0% {
+    fill: #E6E9ED;
+  }
+  50% {
+    fill: #878787;
+  }
+  100% {
+    fill: #e6e9ed;
+  }
+}
+@keyframes bgr-light {
+  0% {
+    fill: #E6E9ED;
+  }
+  50% {
+    fill: #878787;
+  }
+  100% {
+    fill: #e6e9ed;
+  }
+}
+.container-svg .svg__sky {
+  fill: pink;
+  -webkit-animation-name: svg-sky;
+          animation-name: svg-sky;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes svg-sky {
+  0% {
+    fill: #5D9CEC;
+  }
+  50% {
+    fill: #000000;
+  }
+  100% {
+    fill: #5D9CEC;
+  }
+}
+@keyframes svg-sky {
+  0% {
+    fill: #5D9CEC;
+  }
+  50% {
+    fill: #000000;
+  }
+  100% {
+    fill: #5D9CEC;
+  }
+}
+.container-svg .svg__sun {
+  fill: #FFCE54;
+  -webkit-animation-name: svg-sun;
+          animation-name: svg-sun;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes svg-sun {
+  0% {
+    fill: #FFCE54;
+  }
+  50% {
+    fill: #faf8d8;
+  }
+  100% {
+    fill: #FFCE54;
+  }
+}
+@keyframes svg-sun {
+  0% {
+    fill: #FFCE54;
+  }
+  50% {
+    fill: #faf8d8;
+  }
+  100% {
+    fill: #FFCE54;
+  }
+}
+.container-svg .svg:hover {
+  transform: scale(1.2);
 }
 
 .section-grid {
